@@ -49,11 +49,11 @@ public class GirisController {
     public void initialize(){
         String baglantiDurum = DatabaseConnector.getBaglantiDurumu();
         sqlBaglantiLabel.setText(baglantiDurum);
-    } //acilista yapiliyor bu da sql bagli degilse yoruyor.
+    }
 
     private void closeStage() {
         Timeline timeline = new Timeline(new KeyFrame(
-                Duration.seconds(0.1), // Kapanma süresi
+                Duration.seconds(0.1),
                 new EventHandler<ActionEvent>() {
                     @Override
                     public void handle(ActionEvent event) {
@@ -108,7 +108,6 @@ public class GirisController {
             splashStage.setScene(splashScene);
             splashStage.show();
 
-            // Splash ekranını bir süre gösterdikten sonra kapat
             ScheduledExecutorService executorService = Executors.newSingleThreadScheduledExecutor();
             executorService.schedule(() -> {
                 Platform.runLater(() -> {
