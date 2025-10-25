@@ -1,0 +1,36 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#0f3538"/>
+
+  <!-- Title -->
+  <text x="300" y="120" font-family="Arial" font-size="32" fill="#ffbe00" text-anchor="middle" font-weight="bold">
+    Hoşgeldiniz
+  </text>
+
+  <!-- Subtitle -->
+  <text x="300" y="160" font-family="Arial" font-size="18" fill="#cccccc" text-anchor="middle">
+    Safranbolu Terminali
+  </text>
+
+  <!-- Progress Bar Background -->
+  <rect x="150" y="220" width="300" height="20" fill="#2a5a5e" rx="10"/>
+
+  <!-- Progress Bar Fill -->
+  <rect x="150" y="220" width="200" height="20" fill="#ffbe00" rx="10"/>
+
+  <!-- Progress Text -->
+  <text x="300" y="270" font-family="Arial" font-size="14" fill="#cccccc" text-anchor="middle">
+    Yükleniyor... 67%
+  </text>
+
+  <!-- Icon -->
+  <circle cx="300" cy="60" r="25" fill="#ffbe00"/>
+  <text x="300" y="70" font-family="Arial" font-size="24" fill="#0f3538" text-anchor="middle">
+    🚌
+  </text>
+
+  <!-- Loading animation hint -->
+  <text x="300" y="330" font-family="Arial" font-size="12" fill="#888888" text-anchor="middle">
+    Sistem başlatılıyor...
+  </text>
+</svg>

@@ -1,0 +1,87 @@
+<svg width="400" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="600" fill="#ffffff"/>
+
+  <!-- Ticket Border -->
+  <rect x="30" y="30" width="340" height="540" fill="#ffffff" stroke="#0f3538" stroke-width="3" rx="10"/>
+
+  <!-- Header -->
+  <rect x="40" y="40" width="320" height="60" fill="#0f3538" rx="5"/>
+  <text x="200" y="70" font-family="Arial" font-size="20" fill="#ffbe00" text-anchor="middle" font-weight="bold">
+    Safranbolu Terminali
+  </text>
+  <text x="200" y="90" font-family="Arial" font-size="12" fill="#cccccc" text-anchor="middle">
+    Otobüs Bileti
+  </text>
+
+  <!-- Ticket Details -->
+  <text x="50" y="130" font-family="Arial" font-size="14" fill="#333333" font-weight="bold">Bilet No:</text>
+  <text x="260" y="130" font-family="Arial" font-size="14" fill="#0f3538" text-anchor="end">12345</text>
+
+  <line x1="50" y1="140" x2="350" y2="140" stroke="#e0e0e0" stroke-width="1"/>
+
+  <text x="50" y="165" font-family="Arial" font-size="14" fill="#333333" font-weight="bold">Yolcu Adı:</text>
+  <text x="260" y="165" font-family="Arial" font-size="14" fill="#0f3538" text-anchor="end">Ahmet Yılmaz</text>
+
+  <line x1="50" y1="175" x2="350" y2="175" stroke="#e0e0e0" stroke-width="1"/>
+
+  <text x="50" y="200" font-family="Arial" font-size="14" fill="#333333" font-weight="bold">TC Kimlik:</text>
+  <text x="260" y="200" font-family="Arial" font-size="14" fill="#0f3538" text-anchor="end">12345678901</text>
+
+  <line x1="50" y1="210" x2="350" y2="210" stroke="#e0e0e0" stroke-width="1"/>
+
+  <!-- Route Section -->
+  <rect x="50" y="230" width="300" height="80" fill="#f5f5f5" rx="5"/>
+
+  <text x="70" y="255" font-family="Arial" font-size="12" fill="#666666">Kalkış:</text>
+  <text x="330" y="255" font-family="Arial" font-size="14" fill="#0f3538" text-anchor="end" font-weight="bold">Ankara</text>
+
+  <text x="200" y="275" font-family="Arial" font-size="20" fill="#ffbe00" text-anchor="middle">↓</text>
+
+  <text x="70" y="300" font-family="Arial" font-size="12" fill="#666666">Varış:</text>
+  <text x="330" y="300" font-family="Arial" font-size="14" fill="#0f3538" text-anchor="end" font-weight="bold">İstanbul</text>
+
+  <!-- Time and Seat -->
+  <text x="50" y="340" font-family="Arial" font-size="14" fill="#333333" font-weight="bold">Kalkış Saati:</text>
+  <text x="260" y="340" font-family="Arial" font-size="14" fill="#0f3538" text-anchor="end">09:00</text>
+
+  <line x1="50" y1="350" x2="350" y2="350" stroke="#e0e0e0" stroke-width="1"/>
+
+  <text x="50" y="375" font-family="Arial" font-size="14" fill="#333333" font-weight="bold">Koltuk No:</text>
+  <text x="260" y="375" font-family="Arial" font-size="18" fill="#ffbe00" text-anchor="end" font-weight="bold">15</text>
+
+  <line x1="50" y1="385" x2="350" y2="385" stroke="#e0e0e0" stroke-width="1"/>
+
+  <text x="50" y="410" font-family="Arial" font-size="14" fill="#333333" font-weight="bold">Otobüs Plaka:</text>
+  <text x="260" y="410" font-family="Arial" font-size="14" fill="#0f3538" text-anchor="end">34 ABC 123</text>
+
+  <line x1="50" y1="420" x2="350" y2="420" stroke="#e0e0e0" stroke-width="1"/>
+
+  <text x="50" y="445" font-family="Arial" font-size="14" fill="#333333" font-weight="bold">Fiyat:</text>
+  <text x="260" y="445" font-family="Arial" font-size="16" fill="#0f3538" text-anchor="end" font-weight="bold">250.00 TL</text>
+
+  <!-- Barcode Area -->
+  <rect x="50" y="465" width="300" height="60" fill="#f9f9f9" stroke="#cccccc" stroke-width="1" rx="5"/>
+
+  <!-- Simple barcode representation -->
+  <line x1="60" y1="475" x2="60" y2="515" stroke="#000" stroke-width="2"/>
+  <line x1="70" y1="475" x2="70" y2="515" stroke="#000" stroke-width="1"/>
+  <line x1="75" y1="475" x2="75" y2="515" stroke="#000" stroke-width="3"/>
+  <line x1="85" y1="475" x2="85" y2="515" stroke="#000" stroke-width="1"/>
+  <line x1="90" y1="475" x2="90" y2="515" stroke="#000" stroke-width="2"/>
+  <line x1="100" y1="475" x2="100" y2="515" stroke="#000" stroke-width="1"/>
+  <line x1="105" y1="475" x2="105" y2="515" stroke="#000" stroke-width="3"/>
+  <line x1="115" y1="475" x2="115" y2="515" stroke="#000" stroke-width="2"/>
+  <line x1="125" y1="475" x2="125" y2="515" stroke="#000" stroke-width="1"/>
+  <line x1="130" y1="475" x2="130" y2="515" stroke="#000" stroke-width="2"/>
+  <line x1="140" y1="475" x2="140" y2="515" stroke="#000" stroke-width="3"/>
+  <line x1="150" y1="475" x2="150" y2="515" stroke="#000" stroke-width="1"/>
+  <line x1="155" y1="475" x2="155" y2="515" stroke="#000" stroke-width="2"/>
+  <line x1="165" y1="475" x2="165" y2="515" stroke="#000" stroke-width="1"/>
+  <line x1="170" y1="475" x2="170" y2="515" stroke="#000" stroke-width="3"/>
+
+  <!-- Footer -->
+  <text x="200" y="555" font-family="Arial" font-size="10" fill="#888888" text-anchor="middle">
+    İyi yolculuklar dileriz
+  </text>
+</svg>
