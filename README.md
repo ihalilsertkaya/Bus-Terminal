@@ -12,7 +12,6 @@ Modern ve kullanıcı dostu bir otobüs terminali bilet yönetim sistemi. JavaFX
 - [Kullanım](#kullanım)
 - [Ekran Görüntüleri](#ekran-görüntüleri)
 - [Proje Yapısı](#proje-yapısı)
-- [Katkıda Bulunma](#katkıda-bulunma)
 - [Lisans](#lisans)
 
 ## Özellikler
@@ -268,6 +267,7 @@ String connectionUrl = "jdbc:sqlserver://localhost:1433;" +
 2. Seferlere göre cinsiyet bazlı satış istatistiklerini görüntüleyin
 
 ## Ekran Görüntüleri
+Ekran görüntüleri temsilidir. Özellikleri ve sistemi görüntülemek için örnek oluşturulmuştur. 
 
 ### Giriş Ekranı
 ![Giriş Ekranı](screenshots/giris-ekrani.svg)
@@ -370,65 +370,16 @@ Bus-Terminal/
 
 - **DatabaseConnector.java**: SQL Server bağlantı yönetimi
 
-## Katkıda Bulunma
-
-Katkılarınızı bekliyoruz! Lütfen şu adımları izleyin:
-
-1. Projeyi fork edin
-2. Yeni bir branch oluşturun (`git checkout -b feature/amazing-feature`)
-3. Değişikliklerinizi commit edin (`git commit -m 'feat: Add some amazing feature'`)
-4. Branch'inizi push edin (`git push origin feature/amazing-feature`)
-5. Pull Request oluşturun
-
-### Commit Mesajı Formatı
-
-- `feat:` Yeni özellik
-- `fix:` Hata düzeltme
-- `docs:` Dokümantasyon değişikliği
-- `style:` Kod formatı değişikliği
-- `refactor:` Kod yeniden yapılandırma
-- `test:` Test ekleme veya düzeltme
-- `chore:` Diğer değişiklikler
-
-## Güvenlik Uyarıları
-
-- Veritabanı şifrelerini kod içinde saklamayın
-- SQL injection saldırılarına karşı hazırlanmış sorguları (PreparedStatement) kullanın
-- Kullanıcı girişlerini her zaman doğrulayın
-- Üretim ortamında güçlü şifreler kullanın
-
 ## Bilinen Sorunlar
 
 - Veritabanı bağlantı bilgileri kod içinde sabit olarak tanımlanmış
 - Bazı SQL sorguları parametre kullanmıyor
 - Şifre şifreleme mekanizması yok
 
-## Gelecek Geliştirmeler
-
-- [ ] Şifre şifreleme (BCrypt)
-- [ ] Yapılandırma dosyası desteği
-- [ ] Online bilet satışı web arayüzü
-- [ ] E-posta ile bilet gönderimi
-- [ ] Ödeme sistemi entegrasyonu
-- [ ] Raporlama modülü
-- [ ] Çoklu dil desteği
-- [ ] Tema değiştirme özelliği
-
 ## Lisans
 
 Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakın.
 
-## İletişim
-
-Proje Sahibi: [Your Name]
-Email: your.email@example.com
-Proje Linki: [https://github.com/yourusername/Bus-Terminal](https://github.com/yourusername/Bus-Terminal)
-
-## Teşekkürler
-
-- JavaFX topluluğuna
-- Tüm katkıda bulunanlara
-- Safranbolu Terminali ekibine
 
 ---
 
